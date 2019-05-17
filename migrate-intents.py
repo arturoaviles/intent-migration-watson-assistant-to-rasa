@@ -3,7 +3,7 @@ import sys
 
 
 def main():
-    workspace_name = sys.argv[2]
+    workspace_name = sys.argv[1]
 
     markdown_file = open("nlu.md", "w+")
 
